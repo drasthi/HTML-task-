@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scal=1.0">
+        <title></title>
+        <style type="text/css">
+        
+        body
+        {
+            background-color:white;
+            overflow-x: hidden;
+            position: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 150px;
+            padding-right: 150px;
+            text-align: center;
+            font-size: 25px;
+            
+        }
+        .dark
+        {
+            background-color:rgb(43, 6, 43);
+            width:99%;
+            height: 60vh;
+            overflow-x: hidden;
+            padding-left: 1%;
+            margin-bottom:10px ;
+        }
+
+        .blue
+        {
+            background-color:skyblue;
+            width:49%;
+            height:100vh;  
+            float:left;
+            text-align: center;
+            line-height: 700px;
+            margin-bottom:10px ;
+           
+        }
+
+        .green
+        {
+            background-color:lightgreen;
+            width: 50%;
+            height:32.5vh;
+            float:right;
+            text-align:center;
+            line-height:250px;
+            margin-bottom:10px;
+        }
+
+
+        
+        .d1::after
+        {
+            content:"";
+            display:block;
+            clear:both;
+        }       
+       
+       .yellow
+        {
+            background-color:#E9D945;
+            height:55%;
+            margin-bottom:10px ;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding-left: 10px;
+         }
+
+        .yellow > white
+        {
+            background-color: white;
+            width:500px;
+            height:400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin:25px;   
+        }
+
+       .pink
+        {
+            background-color:plum;
+            width:49%;
+            height:30vh;
+            float:left;
+            text-align :center;
+            line-height:220px;
+            margin-bottom: 10px;
+        }
+
+        .pink1
+        {
+            background-color:plum;
+            width:50%;
+            height:30vh;
+            float:right;
+            text-align:center;
+            line-height:220px;
+            margin-bottom:10px ;
+        }
+ 
+        .aqua
+        {
+            background-color:aqua;
+            width:99%;
+            height: 15vh;
+            overflow-x: hidden;
+            padding-left: 1%;
+            margin-bottom:10px ;
+        }
+
+
+
+
+    @media screen and (max-width:800px){
+        .blue{
+            width:100%;
+        }
+        
+    }
+    @media screen and (max-width:800px){
+        .green{
+            width:100%;
+        }
+        
+    }
+
+
+    @media screen and (max-width:800px){
+        .pink{
+            width:100%;
+        }
+        
+    }
+    @media screen and (max-width:800px){
+        .pink1{
+            width:100%;
+        }
+    }
+
+        </style>
+</head>
+<body align="center">
+    <div class="dark"></div>
+
+   <div  class="d1">
+    <div class="blue">1</div>
+    
+    <div class="green">2</div>
+    <div class="green" >3 </div>
+    <div class="green"> 4 </div>
+    </div>
+
+    <white class="yellow">
+        <white>1</white>
+        <white>2</white>
+    </white>     
+
+    <div class="d1">
+    <div class="pink" >1</div>
+    <div class="pink1">2</div>
+   
+</div>
+
+<div class="aqua"></div>
+</body>
+</html>
